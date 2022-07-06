@@ -1,0 +1,98 @@
+body {
+    margin: 10px;
+    border: 2px solid #10B981;
+    width: 500px;
+    padding: 30px; 
+    background: #1F2937;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 400px; 
+}
+#whiteColorH1 {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0px;
+    
+}
+#greenColorH1 {
+    color: #55F991;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+.paragraph {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+#clearBox{
+    display: flex;
+    background: #10B981;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+#generatePassBtn {
+    display: flex;
+    background: #10B981;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;    
+}
+.textBoxBorder {
+    display: flex;
+    width: 410px;
+    border-bottom: 2px solid #6B7280;
+    margin-bottom: 0px;
+    border-radius: 1px;   
+}
+
+#displayTextBox {
+    display: flex;
+}
+.textRow {
+    display: flex; 
+}
+
+#generated-password1-el {
+    width: 200px;
+    height: 30px;
+    color: #4ADF86;
+    background: #273549;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: none;
+    border-radius: 5px;
+    border-right: 10px;
+    margin-right: 10px;  
+    
+}
+
+#generated-password2-el {
+    width: 200px;
+    color: #4ADF86;
+    background: #273549;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;   
+}
